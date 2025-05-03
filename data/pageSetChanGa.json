@@ -1,0 +1,27 @@
+[
+    {
+      "id": "scg-11-03",
+      "name": "Chăn Cotton Mùa Hè",
+      "price": 450000,
+      "material": "cotton",
+      "image": "https://i.pinimg.com/736x/b6/e3/b7/b6e3b72890c1b8c72fd58663afeb74bf.jpg",
+      "description": "Chăn nhẹ, thoáng mát, phù hợp mùa hè.\nChất liệu 100% cotton.\nGiặt máy thoải mái."
+    },
+    {
+      "id": "2",
+      "name": "Ga trải giường Lụa",
+      "price": 1200000,
+      "material": "lụa",
+      "image": "https://i.pinimg.com/474x/ea/f0/75/eaf075669cb5f1a6ef2b1fc4707ff8d6.jpg",
+      "description": "LAZY CAT - Cotton Sateen 80s\n\nHàng hot hàng hot cập bến cập bờ đón trận mưa giông tiếp theo rồi đây ạ. Màu đỏ caro mix trắng kem, phối cùng màu ga nâu sạch sẽ đốn gục tim các khách hàng khó tính nhất!\n\nChất liệu Cotton Sateen 80s quốc dân dùng quanh năm 4 mùa, vẫn đảm bảo độ thoáng khí, êm dịu\n\nSet 4 món\n-2 vỏ gối\n-1 vỏ ga\n-1 vỏ chăn"
+    },
+    {
+        "id": "3",
+        "name": "Ga trải giường Lụa",
+        "price": 900000,
+        "material": "nhung",
+        "image": "https://i.pinimg.com/474x/76/b5/57/76b55769be82baddc8751f2a4bf50f6f.jpg",
+        "description": "Sang trọng, mềm mại, mát lạnh."
+      }
+  ]
+  
