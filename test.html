@@ -1,0 +1,31 @@
+<div id="image-container"></div>
+
+<script>
+function checkImageExists(url, callback) {
+  const img = new Image();
+  img.onload = function () {
+    callback(true);
+  };
+  img.onerror = function () {
+    callback(false);
+  };
+  img.src = url;
+}
+
+// Đường dẫn ảnh bạn muốn kiểm tra
+const imageUrl = "https://raw.githubusercontent.com/duonglc27092000/ChanGa/refs/heads/main/SCG/SCG143/3.jpg";
+
+// Kiểm tra và hiển thị nếu tồn tại
+checkImageExists(imageUrl, function (exists) {
+  if (exists) {
+    const container = document.getElementById("image-container");
+    const img = document.createElement("img");
+    img.src = imageUrl;
+    img.alt = "Ảnh hợp lệ";
+    img.style.maxWidth = "300px"; // tuỳ chỉnh
+    container.appendChild(img);
+  } else { 
+    console.log("Ảnh không tồn tại.");
+  }
+});
+</script>
